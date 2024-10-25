@@ -24,4 +24,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag bjoggis/hearts:2
     - name: Push
-      run: docker push bjoggis/hearts:2
+      run: docker push bjoggis/hearts:3
